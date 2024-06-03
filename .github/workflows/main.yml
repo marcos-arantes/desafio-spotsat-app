@@ -30,4 +30,6 @@ jobs:
           amplifyAppId: ${{ secrets.AMPLIFY_APP_ID }}
           amplifyBranch: main
           region: ${{ secrets.AWS_REGION }}
-          amplifyServiceRoleArn: ${{ secrets.AMPLIFY_SERVICE_ROLE_ARN }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
