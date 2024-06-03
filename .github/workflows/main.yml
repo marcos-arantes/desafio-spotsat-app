@@ -1,4 +1,4 @@
-name: Deploy to Amplify
+name: Deploy Frontend to Amplify
 
 on:
   push:
@@ -16,8 +16,5 @@ jobs:
       - name: Install Amplify CLI
         run: npm install -g @aws-amplify/cli
 
-      - name: Configure Amplify
-        run: amplify configure
-
-      - name: Deploy to Amplify
+      - name: Deploy Frontend to Amplify
         run: amplify publish
