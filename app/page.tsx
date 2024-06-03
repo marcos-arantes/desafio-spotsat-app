@@ -20,6 +20,8 @@ const HomePage: React.FC<Props> = () => {
         
         </br>
         <h2>Front-End com Next.js - Desafio SpotSat</h2>
+
+        
         <img src="https://spotsat.com.br/wp-content/uploads/2023/03/LogoS-1024x304.webp" alt="spotsat" style={{ width: '100%', maxWidth: '500px' }} />
       </main>
 
