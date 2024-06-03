@@ -9,7 +9,7 @@ const HomePage: React.FC<Props> = () => {
   return (
     <div>
       <Head>
-        <title>Minha Página Next.js</title>
+        <title>desafio complete</title>
         <meta name="description" content="Esta é uma página Next.js com TypeScript." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
