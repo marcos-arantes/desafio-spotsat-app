@@ -13,7 +13,6 @@ const HomePage: React.FC<Props> = () => {
         <meta name="description" content="Esta é uma página Next.js com TypeScript." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <h1>Bem-vindo à minha aplicação simples usando Next.js com TypeScript!</h1>
         <br>
